@@ -14,6 +14,7 @@ win.setWindowTitle(TITLE)
 win.move(600,200)
 
 qw = QLabel(QW)
+qw.setStyleSheet("color: red")
 rbn_list= list()
 for i in range(4):
     lbl = QRadioButton(ANSW[i])
